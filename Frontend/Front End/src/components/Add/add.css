@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.add-page{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url('https://img1.goodfon.com/wallpaper/nbig/a/6e/raznoe-chasy-chasiki.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.add-box{
+    top: 14%;
+    left: 31%;
+    position: absolute;
+    height: 550px;
+    width: 500px;
+    background-color: rgba(240, 243, 246, 0.604);
+    border-radius: 12.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.add-text{
+    position: absolute;
+    top: 6%;
+    left: 21%;
+    font-size: 35px;
+    color: rgb(57, 55, 55);
+    font-family: 'Quicksand', sans-serif;
+}
+.brand-text{
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.brand-in{
+    position: absolute;
+    top: 22.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.watchcost-text{
+    position: absolute;
+    top: 33.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.watchcost-in{
+    position: absolute;
+    top: 38.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.Instock-text{
+    position: absolute;
+    top: 49.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Instock-in{
+    position: absolute;
+    top: 54.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.Saled-text1{
+    position: absolute;
+    top: 65.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.Saled-in1{
+    position: absolute;
+    top: 70.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.AddWatch-btn{
+    position: absolute;
+    top: 83.5%;
+    left: 10%;
+    width: 396px;
+    height: 46px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+}
+.AddWatch-btn:hover{
+    background-image: linear-gradient(to right, rgb(120, 190, 252) , rgb(212, 0, 255));;
+}
+.branderror-text{
+    color: red;
+    position: absolute;
+    top: 18.4%;
+    left: 24%;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.costerror-text{
+    color: red;
+    position: absolute;
+    top: 34%;
+    left: 22%;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.instockerror-text{
+    color: red;
+    position: absolute;
+    top: 50.2%;
+    left: 24%;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.salederror-text{
+    color: red;
+    position: absolute;
+    top: 66.2%;
+    left: 24%;
+    font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+}

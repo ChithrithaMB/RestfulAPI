@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.signup-page{
+    margin: 0;
+    padding: 0;
+    min-width: 100vh;
+    min-height: 100vh;
+    background-image: url('https://wallpaper-house.com/data/out/12/wallpaper2you_538769.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+.signup-box{
+    top: 16%;
+    left: 13%;
+    position: absolute;
+    height: 550px;
+    width: 500px;
+    background-color: rgba(240, 243, 246, 0.604);
+    border-radius: 12.5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.signup-text{
+    position: absolute;
+    top: 6%;
+    left: 35%;
+    font-size: 40px;
+    color: rgb(57, 55, 55);
+    font-family: 'Quicksand', sans-serif;
+}
+.username-text{
+    position: absolute;
+    top: 17.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.username-in{
+    position: absolute;
+    top: 22.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.mobile-text{
+    position: absolute;
+    top: 33.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.mobile-in{
+    position: absolute;
+    top: 38.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.mail2-text{
+    position: absolute;
+    top: 49.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.mail2-in{
+    position: absolute;
+    top: 54.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.pw2-text1{
+    position: absolute;
+    top: 65.5%;
+    left: 10%;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+.pw2-in1{
+    position: absolute;
+    top: 70.5%;
+    left: 10%;
+    padding: 10px;
+    width: 370px;
+    border-radius: 7px;
+    height: 20px;
+    border: 1px solid rgb(123, 7, 131);
+}
+.signup-btn{
+    position: absolute;
+    top: 83.5%;
+    left: 10%;
+    width: 396px;
+    height: 46px;
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: none;
+    background-color: rgb(53, 52, 52);
+}
+.signup-btn:hover{
+    background-image: linear-gradient(to right, rgb(120, 190, 252) , rgb(212, 0, 255));;
+}
+.unerror-text{
+    color: red;
+    position: absolute;
+    top: 18.4%;
+    left: 28%;
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+}
+.moberror-text{
+    color: red;
+    position: absolute;
+    top: 34.6%;
+    left: 37%;
+    font-size: 13px;
+    font-family: 'Quicksand', sans-serif;
+}
+.mailerror-text{
+    color: red;
+    position: absolute;
+    top: 50.2%;
+    left: 20%;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+}
+.pwerror-text{
+    color: red;
+    position: absolute;
+    top: 66.2%;
+    left: 26.5%;
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+/* .quote-1{
+    position: absolute;
+    color: aliceblue;
+    top: 10%;
+    left: 120%;
+    font-size: 100px;
+    font-family:'Courier New', Courier, monospace;
+} */
